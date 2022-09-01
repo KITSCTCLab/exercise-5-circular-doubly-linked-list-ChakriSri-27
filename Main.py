@@ -67,7 +67,7 @@ class DoublyCircularLinkedList:
     def delete_at_index(self, index) -> bool:
         if index < 0 or index >= self.count:
             return False
-        if index == 0:
+        if index == :
             temp = self.head
             temp.next.previous = self.end
             self.end.next = temp.next
@@ -106,7 +106,7 @@ for specific_operation in input().split(','):
     operations.append(specific_operation.strip())
 input_data = input()
 data = []
-iteration_count = 
+iteration_count = 0
 
 for item in input_data.split(', '):
     inner_list = []

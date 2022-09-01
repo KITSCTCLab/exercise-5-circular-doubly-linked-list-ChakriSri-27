@@ -67,7 +67,7 @@ class DoublyCircularLinkedList:
     def delete_at_index(self, index) -> bool:
         if index < 0 or index >= self.count:
             return False
-        if index == :
+        if index ==0 :
             temp = self.head
             temp.next.previous = self.end
             self.end.next = temp.next
@@ -120,7 +120,7 @@ for item in input_data.split(', '):
         data.append(inner_list)
 
 obj = DoublyCircularLinkedList()
-result = []
+result = 
 for i in range(len(operations)):
     if operations[i] == "add_at_head":
         result.append(obj.add_at_head(data[i]))
